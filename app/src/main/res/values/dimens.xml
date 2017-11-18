@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="imgvLoginImage_margin">8dp</dimen>
+    <dimen name="lnl_login_padding">20dp</dimen>
+    <dimen name="txvSignIn_margin">4dp</dimen>
+    <dimen name="btnSignIn">8dp</dimen>
+    <dimen name="lnl_sign_options">8dp</dimen>
+    <dimen name="btnSignIn_padding">80dp</dimen>
+    <dimen name="btnGoogleSign">2dp</dimen>
+    <dimen name="loginEditTextHeight">35dp</dimen>
+    <dimen name="loginImageViewHeight">150dp</dimen>
+</resources>

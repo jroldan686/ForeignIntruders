@@ -8,26 +8,35 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="LoginTheme" parent="AppTheme">
-        <item name="android:textColor">@color/colorPrimaryLogin</item>
+    <style name="AppTheme.ForeignIntrudersTheme" parent="AppTheme">
+        <item name="android:textColor">@color/colorText</item>
     </style>
 
     <style name="Widget" parent="@android:style/Widget"/>
     <style name="Widget.Button" parent="@android:style/Widget.Button"/>
     <style name="Widget.Button.Transparent">
-        <item name="android:background">@null</item>    <!-- Se anula la propiedad con @null, o bien, no se define -->
+        <item name="android:background">@null</item>
         <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
-        <item name="android:textColor">@android:color/white</item>
-        <item name="android:layout_marginTop">10dp</item>   <!-- Hay que tener especial cuidado con los márgenes dentro de un estilo porque podrían descuadrar los elementos al posicionar de nuevo elementos ya posicionados (los estilos siempre se aplican al final) -->
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:layout_marginTop">4dp</item>
     </style>
 
-    <style name="LoginTheme.EditText" parent="LoginTheme">
+    <style name="AppTheme.ForeignIntrudersTheme.LoginImageView" parent="AppTheme.ForeignIntrudersTheme">
+        <item name="android:layout_height">150dp</item>
+    </style>
+
+    <style name="AppTheme.ForeignIntrudersTheme.TextView" parent="AppTheme.ForeignIntrudersTheme">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+
+    <style name="AppTheme.ForeignIntrudersTheme.EditText" parent="AppTheme.ForeignIntrudersTheme">
+        <item name="android:layout_height">34dp</item>
         <item name="android:padding">10dp</item>
     </style>
 
     <style name="Widget.CompoundButton" parent="@android:style/Widget.CompoundButton.CheckBox"/>
     <style name="Widget.CompoundButton.Checkbox" parent="@android:style/Widget.CompoundButton.CheckBox">
-        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColor">@color/colorText</item>
     </style>
 
 </resources>

@@ -43,6 +43,6 @@ public class Obtained {
 
     @Override
     public String toString() {
-        return this.User + ":" + this.Achievement + ":" + this.Date;
+        return this.user + ":" + this.achievement + ":" + this.date;
     }
 }

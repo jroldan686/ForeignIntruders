@@ -1,3 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Foreign Intruders</string>
+    <string name="app_name" translatable="false">Foreign Intruders</string>
+    <string name="txvUser">Usuario</string>
+    <string name="txvPassword">Contraseña</string>
+    <string name="ckbRemember">Recordarme</string>
+    <string name="txvSignUp">Registrarse</string>
+    <string name="btnSignIn">Acceder</string>
+    <string name="btnGoogleSignIn" translatable="false">Google</string>
+    <string name="btnFacebookSignIn" translatable="false">Facebook</string>
 </resources>
