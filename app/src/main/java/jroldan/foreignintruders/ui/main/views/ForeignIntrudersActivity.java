@@ -1,4 +1,4 @@
-package jroldan.foreignintruders.ui.main;
+package jroldan.foreignintruders.ui.main.views;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

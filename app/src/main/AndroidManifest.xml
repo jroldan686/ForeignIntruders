@@ -16,7 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.main.ForeignIntrudersActivity"/>
+        <activity android:name=".ui.main.views.ForeignIntrudersActivity"/>
         <activity android:name=".ui.login.LoginViewImpl"/>
         <activity android:name=".ui.about.AboutActivity"/>
     </application>
